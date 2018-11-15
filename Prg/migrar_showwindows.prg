@@ -1,0 +1,95 @@
+LOCAL LCDIRTAB, LNNUMTAB, LLSEGUIR, LNPOS
+LNPOS = 0
+LLSEGUIR = .T.
+GCPATH = "c:\desarrollo\irdc-erp\"
+DO WHILE LLSEGUIR
+	LCDIRTAB = GETDIR(GCPATH, 'Seleccione el directorio de los formularios', 'Directorio SCX')
+	IF EMPTY(LCDIRTAB)
+		IF (MESSAGEBOX('El directorio no puede estar Vacío',5+48,'Directorio Vacío') = 4)
+			LLSEGUIR = .T.
+		ELSE &&(MESSAGEBOX('El directorio no puede estar Vacío',5+48,'Directorio Vacío') = 4)
+			LLSEGUIR = .F.
+		ENDIF &&(MESSAGEBOX('El directorio no puede estar Vacío',5+48,'Directorio Vacío') = 4)
+	ELSE &&EMPTY(lcDirTab)
+		SET DEFAULT TO &LCDIRTAB
+		LNNUMTAB = ADIR(ATABLAS,'*.SCX')
+		SET DEFAULT TO &GCPATH
+		LLSEGUIR = .F.
+	ENDIF &&EMPTY(lcDirTab)
+ENDDO &&WHILE llSeguir
+
+IF !EMPTY(LNNUMTAB)
+	PRIVATE PLAGREGAR, OPROGRESSBAR, PCMENSAJE, LNPORCENTAJE
+	MESSAGEBOX("ADVERTENCIA: Ningún formulario de la carpeta "+LCDIRTAB+" debe esta abierto en tiempo de diseño.",0+48,"ADVERTENCIA")
+*//plAgregar tablas en la Grid
+	PLAGREGAR = .T.
+	FOR LNPOS = 1 TO LNNUMTAB STEP 1
+		USE (LCDIRTAB + ATABLAS[lnPos,1]) ALIAS FORMULARIO EXCLUSIVE IN 0
+		SELECT * 											;
+			FROM FORMULARIO 								;
+			WHERE 											;
+			UPPER(ALLTRIM(CLASS)) == 'FORM' 				;
+			INTO CURSOR 									;
+			_LISTAFORM
+*---------------------------------------------------------------------------------------------------------------------*
+&& Actualizar el ShowWindows
+&& Migrar CommandButton
+		LOCAL LNHANDLE, LNHANDLE2, LCRUTATXT, LCLINEA, LCTXTFINAL, LCINSERTAR
+		LNHANDLE  	= 0
+		LNHANDLE2 	= 0
+		LCLINEA   	= ''
+		LCINSERTAR 	= ''
+		SELECT _LISTAFORM
+		SCAN
+			LCRUTATXT 	= ADDBS(SYS(2023)) + SYS(2015) + ".txt"
+			LCTXTFINAL 	= ADDBS(SYS(2023)) + SYS(2015) + ".txt"
+			LNHANDLE 	= 0
+			WAIT "Migrando Formularios..." WINDOW NOWAIT
+			COPY MEMO PROPERTIES TO &LCRUTATXT
+			LNHANDLE  = FOPEN(LCRUTATXT,12)
+			LNHANDLE2 = FCREATE(LCTXTFINAL)
+			DO WHILE !FEOF(LNHANDLE)
+				LCLINEA = ALLTRIM(FGETS(LNHANDLE))
+				DO CASE
+				CASE AT("SHOWWINDOW",UPPER(LCLINEA)) > 0
+					*MESSAGEBOX("POLICIA=> " + LCLINEA)
+					LCLINEA = "ShowWindow = 1"
+				OTHERWISE
+				ENDCASE
+				IF !EMPTY(LCLINEA)
+					FPUTS(LNHANDLE2,LCLINEA)
+				ELSE &&!EMPTY(LCLINEA)
+				ENDIF &&!EMPTY(LCLINEA)
+			ENDDO
+			FCLOSE(LNHANDLE)
+			FCLOSE(LNHANDLE2)
+
+			DIMENSION ARECNO(1)
+			ARECNO(1) = 0
+			SELECT RECNO() FROM FORMULARIO WHERE ALLTRIM(UNIQUEID) == ALLTRIM(_LISTAFORM.UNIQUEID) AND UPPER(CLASS) == 'FORM' INTO ARRAY ARECNO
+			SELECT FORMULARIO
+			GO ARECNO(1) IN FORMULARIO
+			APPEND MEMO PROPERTIES FROM &LCTXTFINAL
+			SELECT _LISTAFORM
+			ERASE &LCRUTATXT
+			ERASE &LCTXTFINAL
+			WAIT CLEAR
+		ENDSCAN		
+		IF USED('_LISTAFORM')
+			SELECT _LISTAFORM
+			USE
+		ELSE &&USED('_LISTAFORM')
+		ENDIF &&USED('_LISTAFORM')
+*---------------------------------------------------------------------------------------------------------------------*
+&& Eliminar el VFP Skin
+		DELETE FROM FORMULARIO WHERE UPPER(ALLTRIM(CLASS)) == "VFPSKIN"
+		IF USED('FORMULARIO')
+			SELECT FORMULARIO
+			USE
+		ELSE &&USED('FORMULARIO')
+		ENDIF &&USED('FORMULARIO')
+	ENDFOR &&lnPos = 1 TO lnNumTab STEP 1
+	MESSAGEBOX("Proceso Terminado",0+64,"IRDC-Sistema")
+ELSE &&!EMPTY(lnNumTab)
+	MESSAGEBOX("El directorio: "+LCDIRTAB+" está vacío",0+64,"Directorio vacío")
+ENDIF &&!EMPTY(lnNumTab)
