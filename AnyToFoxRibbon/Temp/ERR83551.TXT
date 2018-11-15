@@ -1,0 +1,771 @@
+
+ERROR :  VACIADO DE LA INFORMACION DEL SISTEMA
+
+                 FECHA:  23/06/2017
+                  HORA:  02:19:15
+   NOMBRE DEL PROGRAMA:  PRINCIPAL.FUNCIONES1.ANYTOFOXRIBBON
+    LINEA DEL PROGRAMA:  43
+      MENSAJE DE ERROR:  No se puede actualizar el cursor FORMULARIO, ya que es sólo de lectura.
+       CODIGO DE ERROR:         111
+
+    MEMORIA DISPONIBLE:  655360
+         MEMORIA USADA:  0
+ LIMITE DE MEMORIA EMS:  0
+    MEMORIA DE USUARIO:  1180608
+      CONFIG.SYS FILES:  255
+
+===================================================
+
+                   LISTA DE STATUS
+
+El procesador es Pentium
+Tabla seleccionada actualmente:
+Seleccione el área:  2, Tabla en uso: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\FORMS\ACERCA.SCX     (Sólo lectura) Alias: FORMULARIO
+    Página de códigos:   1252
+         Archivo memo:   C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\FORMS\ACERCA.SCT
+      Bloqueos: USO exclusivo
+
+Seleccione el área:  1, Tabla en uso: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\DATA\TMPNUMTAB.DBF    Alias: TMPNUMTAB
+    Página de códigos:   1252
+Archivo CDX estructural: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\DATA\TMPNUMTAB.CDX
+   Etiqueta de índice:   NOM          Ordenación: Machine    Clave: NOMTAB
+   Etiqueta de índice:   DIR          Ordenación: Machine    Clave: DIRTAB
+         Archivo memo:   C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\DATA\TMPNUMTAB.FPT
+      Bloqueos: USO exclusivo
+
+Archivo alternativo: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\TEMP\ERR83551.TXT
+Archivo de procedimiento: UTILIDADES.FXP
+Bibliotecas de clases: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\VCX\_THERM.VCX ALIAS _THERM
+Ruta de búsqueda del archivo: 
+Directorio predeterminado: C:\DESARROLLO\ANYTOFOXRIBBON
+Dispositivo o archivo de impresión:  
+Área de trabajo      =    2
+Margen               =    0
+Decimales            =    2
+Ancho del campo memo =  256
+Escritura anticipada =   20
+Tamaño del bloque    =   64
+Reproceso            =       1
+Refresh              = 0, 5.000 SEGUNDOS
+Tiempo de espera DDE =    2000
+Seguridad DDE        = on
+
+Página de códigos: 1252
+Secuencia de ordenación: Machine
+Página de códigos del compilador: 1252
+Formato de fecha: YMD
+Tecla de método abreviado de macro = 
+Los parámetros de FDU se pasan por: VALUE
+On Error:        DO MANEJAERROR WITH PROGRAM(),LINENO(),ERROR(),MESSAGE()
+Teclas de método abreviado de ON KEY LABEL:
+F3                  PRINCIPAL.BT_EXA.CLICK()
+Opciones de combinación de texto
+          Delimitadores:  Izquierda = <<  Derecha = >>
+          Mostrar
+
+Alternate  - on     Device     - pant   Near       - off 
+ANSI       - off    Echo       - off    NULL       - off 
+Aserciones - off    Escape     - off    Optimize   - on  
+Bell       - on     Exact      - on     Print      - off 
+Blink      - on     Exclusive  - on     Readborder - off 
+Brstatus   - off    Fields     - off    Safety     - off 
+Carry      - off    Fixed      - off    Space      - on  
+Century    - on     Fullpath   - on     Status Bar - on  
+Clear      - on     Heading    - on     Sysmenus   - off 
+Color      - on     Help       - off    Talk       - off 
+Compatible - off    Intensity  - on     Textmerge  - off 
+Confirm    - on     Lock       - off    Title      - off 
+Console    - off    Logerrors  - on     Unique     - off 
+Cursor     - on     Mouse      - on  
+Deleted    - on     Multilocks - on  
+
+
+
+
+======================================================================
+
+                  LISTA DE MEMORIA
+
+GCPATH      Púb    C  "C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\"
+GCDIRTEMP   Púb    C  "C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\TEMP\"
+GCDIRREP    Púb    C  "C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\REP\"
+GNHANDLE    Púb    N  0           (         0.00000000)
+GCDIRDAT    Púb    C  "C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\DATA\"
+GCPORT      Púb    L  .F.
+GCDATABASE  Púb    L  .F.
+GCSERVER    Púb    L  .F.
+GCUSER      Púb    L  .F.
+GCPWD       Púb    L  .F.
+GCDIRTAB    Púb    N  0           (         0.00000000)
+GNNUMTAB    Púb    N  0           (         0.00000000)
+MENU        Priv   C  "AUTOMATIC"  main
+DROPDEAD    Priv   L  .F.  main
+TOBEDONE    Priv   C  ""  main
+NESTATUS    Priv   N  0           (         0.00000000)  main
+NERRORES    Priv   N  0           (         0.00000000)  main
+PRINCIPAL   Priv   O  FORM  main
+PNTOTTAB    Priv   N  49          (        49.00000000)  anytofoxribbon
+PNNUMTABACT
+            Priv   N  1           (         1.00000000)  anytofoxribbon
+OPROGRESSBAR
+            Priv   O  _THERMOMETER  anytofoxribbon
+LCDIRFORM   Local  C  "C:\DESARROLLO\IRDC-SUELDOS\PANTALLA\ACERCA.SC
+                      X"  anytofoxribbon
+LCCLASSLOC  Local  C  "C:\DESARROLLO\IRDC-ERP\VCX\FOXRIBBON.VCX"  anytofoxribbon
+LNCANSLASH  Local  L  .F.  anytofoxribbon
+LCRUTAVCX   Local  C  "C:\DESARROLLO\IRDC-ERP\VCX\FOXRIBBON.VCX"  anytofoxribbon
+PCTABLA     Priv   C  "ACERCA.SCX"  anytofoxribbon
+PCMENSAJE   Priv   C  "Migrando el Formulario ACERCA.SCX... Por favo
+                      r Espere"  anytofoxribbon
+PNPORCENTAJE
+            Priv   N  2           (         2.00000000)  anytofoxribbon
+PROGRAMA    (ocu)  C  "PRINCIPAL.FUNCIONES1.ANYTOFOXRIBBON"  manejaerror
+LINEA       (ocu)  N  43          (        43.00000000)  manejaerror
+NUMERROR    (ocu)  N  111         (       111.00000000)  manejaerror
+MENSAJE     (ocu)  C  "No se puede actualizar el cursor FORMULARIO, 
+                      ya que es sólo de lectura."  manejaerror
+PROCNOM     Priv   programa
+LINEA       Priv   linea
+ERRCOD      Priv   numerror
+ERRMESS     Priv   mensaje
+ARC         Priv   C  "C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\TEMP\ERR
+                      83551.TXT"  errortxt
+OLDPRINT    Priv   C  "OFF"  errortxt
+   38 variables definidas,    628 bytes usados
+16346 variables disponibles
+
+Imprimir variables de memoria del sistema
+
+_ALIGNMENT  Púb    C  "LEFT"
+_ASCIICOLS  Púb    N  80          (        80.00000000)
+_ASCIIROWS  Púb    N  63          (        63.00000000)
+_ASSIST     Púb    C  ""
+_BEAUTIFY   Púb    C  ""
+_BOX        Púb    L  .T.
+_BROWSER    Púb    C  ""
+_BUILDER    Púb    C  ""
+_CALCMEM    Púb    N  0.00        (         0.00000000)
+_CALCVALUE  Púb    N  0.00        (         0.00000000)
+_CODESENSE  Púb    C  ""
+_CONVERTER  Púb    C  ""
+_COVERAGE   Púb    C  ""
+_CUROBJ     Púb    N  -1          (        -1.00000000)
+_DBLCLICK   Púb    N  0.50        (         0.50000000)
+_DIARYDATE  Púb    D  23/06/2017
+_DOS        Púb    L  .F.
+_FOXCODE    Púb    C  ""
+_FOXDOC     Púb    C  ""
+_FOXGRAPH   Púb    C  ""
+_FOXREF     Púb    C  ""
+_FOXTASK    Púb    C  ""
+_GALLERY    Púb    C  ""
+_GENGRAPH   Púb    C  ""
+_GENHTML    Púb    C  ""
+_GENMENU    Púb    C  ""
+_GENPD      Púb    C  ""
+_GENSCRN    Púb    C  ""
+_GENXTAB    Púb    C  ""
+_GETEXPR    Púb    C  ""
+_INCLUDE    Púb    C  ""
+_INCSEEK    Púb    N  0.50        (         0.50000000)
+_INDENT     Púb    N  0           (         0.00000000)
+_LMARGIN    Púb    N  0           (         0.00000000)
+_MAC        Púb    L  .F.
+_MENUDESIGNERPúb    C  ""
+_MLINE      Púb    N  0           (         0.00000000)
+_OBJECTBROWSERPúb    C  ""
+_PADVANCE   Púb    C  "FORMFEED"
+_PAGENO     Púb    N  27          (        27.00000000)
+_PAGETOTAL  Púb    N  0           (         0.00000000)
+_PBPAGE     Púb    N  1           (         1.00000000)
+_PCOLNO     Púb    N  22          (        22.00000000)
+_PCOPIES    Púb    N  1           (         1.00000000)
+_PDRIVER    Púb    C  ""
+_PDSETUP    Púb    C  ""
+_PECODE     Púb    C  ""
+_PEJECT     Púb    C  "NONE"
+_PEPAGE     Púb    N  32767       (     32767.00000000)
+_PLENGTH    Púb    N  66          (        66.00000000)
+_PLINENO    Púb    N  11          (        11.00000000)
+_PLOFFSET   Púb    N  0           (         0.00000000)
+_PPITCH     Púb    C  "DEFAULT"
+_PQUALITY   Púb    L  .F.
+_PRETEXT    Púb    C  ""
+_PSCODE     Púb    C  ""
+_PSPACING   Púb    N  1           (         1.00000000)
+_PWAIT      Púb    L  .F.
+_REPORTBUILDERPúb    C  ""
+_REPORTOUTPUTPúb    C  ""
+_REPORTPREVIEWPúb    C  ""
+_RMARGIN    Púb    N  80          (        80.00000000)
+_RUNACTIVEDOCPúb    C  ""
+_SAMPLES    Púb    C  "C:\PROGRAM FILES\MICROSOFT VISUAL FOXPRO 9\SA
+                      MPLES\"
+_SCCTEXT    Púb    C  ""
+_SCREEN     Púb    O  FORM
+_SHELL      Púb    C  ""
+_SPELLCHK   Púb    C  ""
+_STARTUP    Púb    C  ""
+_TABS       Púb    C  ""
+_TALLY      Púb    N  0           (         0.00000000)
+_TASKLIST   Púb    C  ""
+_TASKPANE   Púb    C  ""
+_TEXT       Púb    N  -1          (        -1.00000000)
+_THROTTLE   Púb    N  0.00        (         0.00000000)
+_TOOLBOX    Púb    C  ""
+_TOOLTIPTIMEOUTPúb    N  0           (         0.00000000)
+_TRANSPORT  Púb    C  ""
+_TRIGGERLEVELPúb    N  0           (         0.00000000)
+_UNIX       Púb    L  .F.
+_VFP        Púb    O  MICROSOFT VISUAL FOXPRO APPLICATION 9.0
+_WINDOWS    Púb    L  .T.
+_WIZARD     Púb    C  ""
+_WRAP       Púb    L  .F.
+
+   90 variables del sistema definidas
+
+Definiciones de menús y títulos
+
+    0 menús definidos
+
+Definiciones de menús contextuales
+
+    0 menús contextuales definidos
+
+Definiciones de ventanas
+
+Nombre         Desde           A               Tamaño
+PRINCIPAL      1.933,20.625    44.533,146.500  2453264 bytes
+_THERMOMETER   14.400,44.875   20.267,89.375   368 bytes ACTIVA
+
+    2 ventanas definidas
+
+======================================================================
+
+                   JERARQUÍA DE LLAMADAS
+
+1 -- C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\ANYTOFOXRIBBON2.EXE
+
+2 -- PROCEDURE PRINCIPAL.BT_EJECUTAR.CLICK C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\FORMS\PRINCIPAL.SCT
+
+3 -- PROCEDURE PRINCIPAL.FUNCIONES1.EJECUTAR C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\VCX\_THERM.VCT
+
+4 -- PROCEDURE PRINCIPAL.FUNCIONES1.ANYTOFOXRIBBON C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\VCX\_THERM.VCT
+
+5 -- ON... 
+
+6 -- PROCEDURE MANEJAERROR UTILIDADES.FXP
+
+7 -- PROCEDURE ERRORTXT UTILIDADES.FXP
+
+======================================================================
+
+                  LISTA DE OBJETOS
+
+
+Objeto: PRINCIPAL        Priv     O  FORM
+
+Árbol de clases:
+     FORM
+
+Propiedades:
+     ACTIVECONTROL            O  COMMANDBUTTON
+     ACTIVEFORM               (Nada)
+     ALLOWOUTPUT              L  .T.
+     ALWAYSONBOTTOM           L  .F.
+     ALWAYSONTOP              L  .F.
+     AUTOCENTER               L  .T.
+     BACKCOLOR                N  15790320   (  15790320.00000000)
+     BASECLASS                C  "Form"
+     BINDCONTROLS             L  .T.
+     BORDERSTYLE              N  2          (         2.00000000)
+     BUFFERMODE               N  0          (         0.00000000)
+     CAPTION                  C  "Versión 2017.0.01"
+     CLASS                    C  "Form"
+     CLASSLIBRARY             C  ""
+     CLIPCONTROLS             L  .T.
+     CLOSABLE                 L  .T.
+     COLORSOURCE              N  4          (         4.00000000)
+     COMMENT                  C  ""
+     CONTIN...SCROLL          L  .T.
+     CONTROLBOX               L  .T.
+     CONTROLCOUNT             N  55         (        55.00000000)
+     CONTROLS                 (Nada)
+     CURRENTX                 N  0          (         0.00000000)
+     CURRENTY                 N  0          (         0.00000000)
+     DATASESSION              N  1          (         1.00000000)
+     DATASESSIONID            N  1          (         1.00000000)
+     DECLASS                  C  ""
+     DECLASSLIBRARY           C  ""
+     DEFOLELCID               N  0          (         0.00000000)
+     DESKTOP                  L  .F.
+     DOCKABLE                 N  0          (         0.00000000)
+     DOCKED                   L  .F.
+     DOCKPOSITION             N  -1         (        -1.00000000)
+     DRAWMODE                 N  13         (        13.00000000)
+     DRAWSTYLE                N  0          (         0.00000000)
+     DRAWWIDTH                N  1          (         1.00000000)
+     ENABLED                  L  .T.
+     FILLCOLOR                N  0          (         0.00000000)
+     FILLSTYLE                N  1          (         1.00000000)
+     FONTBOLD                 L  .F.
+     FONTCHARSET              N  1          (         1.00000000)
+     FONTCONDENSE             L  .F.
+     FONTEXTEND               L  .F.
+     FONTITALIC               L  .F.
+     FONTNAME                 C  "Tahoma"
+     FONTOUTLINE              L  .F.
+     FONTSHADOW               L  .F.
+     FONTSIZE                 N  8          (         8.00000000)
+     FONTSTRIKETHRU           L  .F.
+     FONTUNDERLINE            L  .F.
+     FORECOLOR                N  0          (         0.00000000)
+     HALFHE...APTION          L  .F.
+     HEIGHT                   N  611        (       611.00000000)
+     HELPCONTEXTID            N  0          (         0.00000000)
+     HSCROL...CHANGE          N  10         (        10.00000000)
+     HWND                     N  1442916    (   1442916.00000000)
+     ICON                     C  "c:\desarrollo\anytofoxribbon - cop
+                                 ia\images\foxribbon.ico"
+     KEYPREVIEW               L  .F.
+     LEFT                     N  173        (       173.00000000)
+     LOCKSCREEN               L  .F.
+     MACDESKTOP               N  0          (         0.00000000)
+     MAXBUTTON                L  .F.
+     MAXHEIGHT                N  -1         (        -1.00000000)
+     MAXLEFT                  N  -1         (        -1.00000000)
+     MAXTOP                   N  -1         (        -1.00000000)
+     MAXWIDTH                 N  -1         (        -1.00000000)
+     MDIFORM                  L  .F.
+     MINBUTTON                L  .F.
+     MINHEIGHT                N  -1         (        -1.00000000)
+     MINWIDTH                 N  -1         (        -1.00000000)
+     MODO                     N  2          (         2.00000000)
+     MOUSEICON                C  ""
+     MOUSEPOINTER             N  0          (         0.00000000)
+     MOVABLE                  L  .T.
+     NAME                     C  "PRINCIPAL"
+     OBJECTS                  (Nada)
+     OLEDRAGMODE              N  0          (         0.00000000)
+     OLEDRAGPICTURE           C  ""
+     OLEDROPEFFECTS           N  3          (         3.00000000)
+     OLEDROPHASDATA           N  -1         (        -1.00000000)
+     OLEDROPMODE              N  0          (         0.00000000)
+     PARENT                   (Nada)
+     PARENTCLASS              C  ""
+     PICTURE                  C  ""
+     RELEASETYPE              N  0          (         0.00000000)
+     RIGHTTOLEFT              L  .F.
+     SCALEMODE                N  3          (         3.00000000)
+     SCROLLBARS               N  0          (         0.00000000)
+     SHOWINTASKBAR            L  .T.
+     SHOWTIPS                 L  .F.
+     SHOWWINDOW               N  2          (         2.00000000)
+     SIZEBOX                  L  .F.
+     TABINDEX                 N  0          (         0.00000000)
+     TABSTOP                  L  .T.
+     TAG                      C  ""
+     THEMES                   L  .T.
+     TIPMIG                   N  1          (         1.00000000)
+     TITLEBAR                 N  1          (         1.00000000)
+     TOP                      N  59         (        59.00000000)
+     VIEWPORTHEIGHT           N  611        (       611.00000000)
+     VIEWPORTLEFT             N  0          (         0.00000000)
+     VIEWPORTTOP              N  0          (         0.00000000)
+     VIEWPORTWIDTH            N  1001       (      1001.00000000)
+     VISIBLE                  L  .T.
+     VSCROL...CHANGE          N  10         (        10.00000000)
+     WHATSTHISBUTTON          L  .F.
+     WHATSTHISHELP            L  .F.
+     WHATSTHISHELPID          N  -1         (        -1.00000000)
+     WIDTH                    N  1001       (      1001.00000000)
+     WINDOWSTATE              N  0          (         0.00000000)
+     WINDOWTYPE               N  0          (         0.00000000)
+     ZOOMBOX                  L  .F.
+
+Objetos miembros:
+     BT_CARDIR        COMMANDBUTTON
+     BT_EJECUTAR      COMMANDBUTTON
+     BT_EXA           COMMANDBUTTON
+     BT_MIGCLA        COMMANDBUTTON
+     BT_SALIR         COMMANDBUTTON
+     CHECK1           CHECKBOX
+     CHKCHECK         CHECKBOX
+     CHKCOMBOBOX      CHECKBOX
+     CHKCOM...BUTTON  CHECKBOX
+     CHKEDITBOX       CHECKBOX
+     CHKFORM          CHECKBOX
+     CHKGRID          CHECKBOX
+     CHKINCIMA        CHECKBOX
+     CHKLABEL         CHECKBOX
+     CHKLISTBOX       CHECKBOX
+     CHKOPTIONGROUP   CHECKBOX
+     CHKSPINNER       CHECKBOX
+     CHKTEXTBOX       CHECKBOX
+     COMMAND1         COMMANDBUTTON
+     DATAENVIRONMENT  DATAENVIRONMENT
+     FUNCIONES1       FUNCIONES
+     GRID1            GRID
+     IMAGE1           IMAGE
+     IMAGE2           IMAGE
+     IMAGE3           IMAGE
+     IMAGE4           IMAGE
+     IMAGE5           IMAGE
+     IMAGE6           IMAGE
+     IMAGE7           IMAGE
+     IMAGE8           IMAGE
+     LABEL1           LABEL
+     LABEL10          LABEL
+     LABEL11          LABEL
+     LABEL12          LABEL
+     LABEL13          LABEL
+     LABEL14          LABEL
+     LABEL2           LABEL
+     LABEL3           LABEL
+     LABEL4           LABEL
+     LABEL5           LABEL
+     LABEL6           LABEL
+     LABEL7           LABEL
+     LABEL8           LABEL
+     LABEL9           LABEL
+     LBLCOLDAT        LABEL
+     LBL_RUTARC       LABEL
+     LINE1            LINE
+     SHAPE1           SHAPE
+     SHAPE2           SHAPE
+     SHAPE3           SHAPE
+     SHAPE4           SHAPE
+     SHAPE5           SHAPE
+     SHAPE6           SHAPE
+     TXTFOXRIBBON     TEXTBOX
+     TXTNUMTAB        TEXTBOX
+     TXTRUTAFORM      TEXTBOX
+
+Métodos y eventos:
+     ACTIVATE                 ADDOBJECT
+     ADDPROPERTY              AFTERDOCK
+     BEFOREDOCK               BOX
+     CIRCLE                   CLICK
+     CLS                      DBLCLICK
+     DEACTIVATE               DESTROY
+     DOCK                     DRAGDROP
+     DRAGOVER                 DRAW
+     ERROR                    GETDOCKSTATE
+     GOTFOCUS                 HIDE
+     INIT                     KEYPRESS
+     LINE                     LOAD
+     LOSTFOCUS                MIDDLECLICK
+     MOUSEDOWN                MOUSEMOVE
+     MOUSEUP                  MOUSEWHEEL
+     MOVE                     MOVED
+     NEWOBJECT                NOMARC
+     OBTLONCAM                OLECOMPLETEDRAG
+     OLEDRAG                  OLEDRAGDROP
+     OLEDRAGOVER              OLEGIVEFEEDBACK
+     OLESETDATA               OLESTARTDRAG
+     PAINT                    POINT
+     PRINT                    PSET
+     QUERYUNLOAD              READEXPRESSION
+     READMETHOD               REFDATOS
+     REFRESH                  RELEASE
+     REMOVEOBJECT             RESETTODEFAULT
+     RESIZE                   RIGHTCLICK
+     SAVEAS                   SAVEASCLASS
+     SCROLLED                 SELTIPMIG
+     SETALL                   SETVIEWPORT
+     SHOW                     SHOWWHATSTHIS
+     TEXTHEIGHT               TEXTWIDTH
+     UNDOCK                   UNLOAD
+     VALDATOS                 VERCODIGO
+     WHATSTHISMODE            WRITEEXPRESSION
+     WRITEMETHOD              ZORDER
+
+Objeto: OPROGRESSBAR     Priv     O  _THERMOMETER
+
+Árbol de clases:
+     _THERMOMETER             c:\desarrollo\anytofoxribbon - copia\vcx\_therm.vcx
+     FORM
+
+Propiedades:
+     ACTIVECONTROL            (Nada)
+     ACTIVEFORM               (Nada)
+     ALLOWOUTPUT              L  .T.
+     ALWAYSONBOTTOM           L  .F.
+     ALWAYSONTOP              L  .F.
+     AUTOCENTER               L  .T.
+     BACKCOLOR                N  15790320   (  15790320.00000000)
+     BASECLASS                C  "Form"
+     BINDCONTROLS             L  .T.
+     BORDERSTYLE              N  0          (         0.00000000)
+     BUFFERMODE               N  0          (         0.00000000)
+     CAPTION                  C  ""
+     CCURRENTTASK             C  "Migrando el Formulario ACERCA.SCX.
+                                 .. Por favor Espere 2"
+     CLASS                    C  "_thermometer"
+     CLASSLIBRARY             C  "c:\desarrollo\anytofoxribbon - cop
+                                 ia\vcx\_therm.vcx"
+     CLIPCONTROLS             L  .T.
+     CLOSABLE                 L  .F.
+     COLORSOURCE              N  4          (         4.00000000)
+     COMMENT                  C  ""
+     CONTIN...SCROLL          L  .T.
+     CONTROLBOX               L  .F.
+     CONTROLCOUNT             N  20         (        20.00000000)
+     CONTROLS                 (Nada)
+     CTHERMREF                C  ""
+     CURRENTX                 N  0          (         0.00000000)
+     CURRENTY                 N  0          (         0.00000000)
+     DATASESSION              N  1          (         1.00000000)
+     DATASESSIONID            N  1          (         1.00000000)
+     DECLASS                  C  ""
+     DECLASSLIBRARY           C  ""
+     DEFOLELCID               N  0          (         0.00000000)
+     DESKTOP                  L  .F.
+     DOCKABLE                 N  0          (         0.00000000)
+     DOCKED                   L  .F.
+     DOCKPOSITION             N  -1         (        -1.00000000)
+     DRAWMODE                 N  13         (        13.00000000)
+     DRAWSTYLE                N  0          (         0.00000000)
+     DRAWWIDTH                N  1          (         1.00000000)
+     ENABLED                  L  .T.
+     FILLCOLOR                N  0          (         0.00000000)
+     FILLSTYLE                N  1          (         1.00000000)
+     FONTBOLD                 L  .F.
+     FONTCHARSET              N  1          (         1.00000000)
+     FONTCONDENSE             L  .F.
+     FONTEXTEND               L  .F.
+     FONTITALIC               L  .F.
+     FONTNAME                 C  "Arial"
+     FONTOUTLINE              L  .F.
+     FONTSHADOW               L  .F.
+     FONTSIZE                 N  9          (         9.00000000)
+     FONTSTRIKETHRU           L  .F.
+     FONTUNDERLINE            L  .F.
+     FORECOLOR                N  0          (         0.00000000)
+     HALFHE...APTION          L  .F.
+     HEIGHT                   N  88         (        88.00000000)
+     HELPCONTEXTID            N  0          (         0.00000000)
+     HSCROL...CHANGE          N  10         (        10.00000000)
+     HWND                     N  590348     (    590348.00000000)
+     IBASIS                   N  0          (         0.00000000)
+     ICON                     C  ""
+     IPERCENTAGE              N  2          (         2.00000000)
+     IPROGRESS                N  2          (         2.00000000)
+     KEYPREVIEW               L  .F.
+     LEFT                     N  359        (       359.00000000)
+     LOCKSCREEN               L  .F.
+     MACDESKTOP               N  0          (         0.00000000)
+     MAXBUTTON                L  .F.
+     MAXHEIGHT                N  -1         (        -1.00000000)
+     MAXLEFT                  N  -1         (        -1.00000000)
+     MAXTOP                   N  -1         (        -1.00000000)
+     MAXWIDTH                 N  -1         (        -1.00000000)
+     MDIFORM                  L  .F.
+     MINBUTTON                L  .F.
+     MINHEIGHT                N  -1         (        -1.00000000)
+     MINWIDTH                 N  -1         (        -1.00000000)
+     MOUSEICON                C  ""
+     MOUSEPOINTER             N  0          (         0.00000000)
+     MOVABLE                  L  .F.
+     NAME                     C  "_thermometer"
+     OBJECTS                  (Nada)
+     OLEDRAGMODE              N  0          (         0.00000000)
+     OLEDRAGPICTURE           C  ""
+     OLEDROPEFFECTS           N  3          (         3.00000000)
+     OLEDROPHASDATA           N  -1         (        -1.00000000)
+     OLEDROPMODE              N  0          (         0.00000000)
+     PARENT                   (Nada)
+     PARENTCLASS              C  "Form"
+     PICTURE                  C  ""
+     RELEASETYPE              N  0          (         0.00000000)
+     RIGHTTOLEFT              L  .F.
+     SCALEMODE                N  3          (         3.00000000)
+     SCROLLBARS               N  0          (         0.00000000)
+     SHOWINTASKBAR            L  .T.
+     SHOWTIPS                 L  .F.
+     SHOWWINDOW               N  0          (         0.00000000)
+     SHPTHE...XWIDTH          N  322        (       322.00000000)
+     SIZEBOX                  L  .F.
+     TABINDEX                 N  0          (         0.00000000)
+     TABSTOP                  L  .T.
+     TAG                      C  ""
+     THEMES                   L  .T.
+     TITLEBAR                 N  1          (         1.00000000)
+     TOP                      N  216        (       216.00000000)
+     VIEWPORTHEIGHT           N  88         (        88.00000000)
+     VIEWPORTLEFT             N  0          (         0.00000000)
+     VIEWPORTTOP              N  0          (         0.00000000)
+     VIEWPORTWIDTH            N  356        (       356.00000000)
+     VISIBLE                  L  .T.
+     VSCROL...CHANGE          N  10         (        10.00000000)
+     WHATSTHISBUTTON          L  .F.
+     WHATSTHISHELP            L  .F.
+     WHATSTHISHELPID          N  -1         (        -1.00000000)
+     WIDTH                    N  356        (       356.00000000)
+     WINDOWSTATE              N  0          (         0.00000000)
+     WINDOWTYPE               N  0          (         0.00000000)
+     ZOOMBOX                  L  .F.
+
+Objetos miembros:
+     LBLESC...ESSAGE  LABEL
+     LBLPERCENTAGE    LABEL
+     LBLPERCENTAGE2   LABEL
+     LBLTASK          LABEL
+     LBLTITLE         LABEL
+     SHAPE1           SHAPE
+     SHAPE10          SHAPE
+     SHAPE11          SHAPE
+     SHAPE12          SHAPE
+     SHAPE13          SHAPE
+     SHAPE14          SHAPE
+     SHAPE2           SHAPE
+     SHAPE3           SHAPE
+     SHAPE4           SHAPE
+     SHAPE5           SHAPE
+     SHAPE6           SHAPE
+     SHAPE7           SHAPE
+     SHAPE8           SHAPE
+     SHAPE9           SHAPE
+     SHPTHERMBAR      SHAPE
+
+Métodos y eventos:
+     ACTIVATE                 ADDOBJECT
+     ADDPROPERTY              AFTERDOCK
+     BEFOREDOCK               BOX
+     CIRCLE                   CLICK
+     CLS                      COMPLETE
+     DBLCLICK                 DEACTIVATE
+     DESTROY                  DOCK
+     DRAGDROP                 DRAGOVER
+     DRAW                     ERROR
+     GETDOCKSTATE             GOTFOCUS
+     HIDE                     INIT
+     KEYPRESS                 LINE
+     LOAD                     LOSTFOCUS
+     MIDDLECLICK              MOUSEDOWN
+     MOUSEMOVE                MOUSEUP
+     MOUSEWHEEL               MOVE
+     MOVED                    NEWOBJECT
+     OLECOMPLETEDRAG          OLEDRAG
+     OLEDRAGDROP              OLEDRAGOVER
+     OLEGIVEFEEDBACK          OLESETDATA
+     OLESTARTDRAG             PAINT
+     POINT                    PRINT
+     PSET                     QUERYUNLOAD
+     READEXPRESSION           READMETHOD
+     REFRESH                  RELEASE
+     REMOVEOBJECT             RESETTODEFAULT
+     RESIZE                   RIGHTCLICK
+     SAVEAS                   SAVEASCLASS
+     SCROLLED                 SETALL
+     SETVIEWPORT              SHOW
+     SHOWWHATSTHIS            TEXTHEIGHT
+     TEXTWIDTH                UNDOCK
+     UNLOAD                   UPDATE
+     WHATSTHISMODE            WRITEEXPRESSION
+     WRITEMETHOD              ZORDER
+
+======================================================================
+
+               STATUS DE LAS AREAS DE TRABAJO
+
+AREA ACTUAL FORMULARIO
+
+AREA TRAB    NOMBRE DE DBF     NUMERO REGIST      INDICE MAEST
+---------    ------------      -------------      ----------
+  1            TMPNUMTAB           1                   0
+  2            FORMULARIO          1                   0
+
+======================================================================
+
+              DETALLES DEL AREA ABIERTA
+
+----------------------------------------------------
+
+Estructura de la tabla: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\DATA\TMPNUMTAB.DBF
+Nº registros de datos:  49      
+Última actualización:   23/06/2017
+Tamaño memo (bloques):  64
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulosSiguiente    Paso
+    1  NOMTAB          Carácter               20            Asc   Machine    No
+    2  DIRTAB          Carácter              150            Asc   Machine    No
+    3  CODSQL          Memo                    4                             No
+    4  MIGCON          Numérico                1                             No
+    5  TOTREG          Numérico               15                             No
+** Total **                                  191
+
+
+CONTENIDO DE REGISTRO ACTUAL DE TMPNUMTAB
+
+NOM. CAMPO   CONTENIDO
+----------   ---------
+NOMTAB      ACERCA.SCX          
+DIRTAB      C:\DESARROLLO\IRDC-SUELDOS\PANTALLA\ACERCA.SCX                                                                                                        
+CODSQL      
+MIGCON      1
+TOTREG                    1
+
+----------------------------------------------------
+
+Estructura de la tabla: C:\DESARROLLO\ANYTOFOXRIBBON - COPIA\FORMS\ACERCA.SCX
+Nº registros de datos:  10      
+Última actualización:   16/05/2017
+Tamaño memo (bloques):  1
+Página de códigos:      1252    
+Campo  Nombre de campo Tipo                Ancho    Dec   Índice   OrdenaciónNulosSiguiente    Paso
+    1  PLATFORM        Carácter                8                             No
+    2  UNIQUEID        Carácter               10                             No
+    3  TIMESTAMP       Numérico               10                             No
+    4  CLASS           Memo                    4                             No
+    5  CLASSLOC        Memo                    4                             No
+    6  BASECLASS       Memo                    4                             No
+    7  OBJNAME         Memo                    4                             No
+    8  PARENT          Memo                    4                             No
+    9  PROPERTIES      Memo                    4                             No
+   10  PROTECTED       Memo                    4                             No
+   11  METHODS         Memo                    4                             No
+   12  OBJCODE         Memo (binario)          4                             No
+   13  OLE             Memo                    4                             No
+   14  OLE2            Memo                    4                             No
+   15  RESERVED1       Memo                    4                             No
+   16  RESERVED2       Memo                    4                             No
+   17  RESERVED3       Memo                    4                             No
+   18  RESERVED4       Memo                    4                             No
+   19  RESERVED5       Memo                    4                             No
+   20  RESERVED6       Memo                    4                             No
+   21  RESERVED7       Memo                    4                             No
+   22  RESERVED8       Memo                    4                             No
+   23  USER            Memo                    4                             No
+** Total **                                  109
+
+
+CONTENIDO DE REGISTRO ACTUAL DE FORMULARIO
+
+NOM. CAMPO   CONTENIDO
+----------   ---------
+PLATFORM    COMMENT 
+UNIQUEID    Screen    
+TIMESTAMP            0
+CLASS       
+CLASSLOC    
+BASECLASS   
+OBJNAME     
+PARENT      
+PROPERTIES  
+PROTECTED   
+METHODS     
+OBJCODE     
+OLE         
+OLE2        
+RESERVED1   VERSION =   3.00
+RESERVED2   
+RESERVED3   
+RESERVED4   
+RESERVED5   
+RESERVED6   
+RESERVED7   
+RESERVED8   
+USER        
+
+----------------------------------------------------
